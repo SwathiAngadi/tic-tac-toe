@@ -4,4 +4,28 @@
   padding: 2rem;
   text-align: center;
 }
-
+.board{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 200px;
+  height: 200px;
+  justify-content: center;
+  margin: 0 auto;
+}
+.btn{
+  background-color: white;
+  padding: 0.8em;
+  color: black;
+  border: 1px solid grey;
+  font-size: large;
+  font-weight: 600;
+  height: 65px;
+  width: 65px;
+}
+.reset{
+  padding: 0.5em 1em;
+  font-size: medium;
+  font-weight: 500;
+  margin-top: 2em;
+}
